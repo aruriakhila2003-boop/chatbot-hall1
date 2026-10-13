@@ -1,0 +1,798 @@
+[
+  {
+    "id": "TC001",
+    "title": "Homepage renders hero and key branding",
+    "description": "A site visitor can open the homepage and see the main hero content and branding needed to start exploring the college site.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the hero content is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the main branding is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC002",
+    "title": "Open the homepage and reach the courses section",
+    "description": "A visitor can load the homepage, see the college branding, and use the program exploration call to action to jump to the courses section.",
+    "category": "College Home Page",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the homepage branding and welcome content are visible"
+      },
+      {
+        "type": "action",
+        "description": "Click the program exploration call to action"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the courses section is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC003",
+    "title": "Ask the chatbot a suggested question about courses",
+    "description": "A visitor can open the chatbot, choose a suggested course question, and receive a reply in the chat panel.",
+    "category": "Floating AI Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the chatbot"
+      },
+      {
+        "type": "action",
+        "description": "Select a suggested question about courses"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a chatbot reply is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC004",
+    "title": "Sticky navigation jumps to the About section",
+    "description": "A site visitor can use the sticky navigation to jump from the homepage to the About section and land on the intended content.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the navigation link to the About section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the About section content is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC005",
+    "title": "Explore Programs CTA opens the courses area",
+    "description": "A prospective student can use the primary call to action to reach the course listings and begin reviewing programs.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the primary call to action for exploring programs"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the courses section is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC006",
+    "title": "Ask the chatbot a custom admissions or fees question",
+    "description": "A visitor can open the chatbot, enter a custom admissions or fees question, and receive a reply in the chat panel.",
+    "category": "Floating AI Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the chatbot"
+      },
+      {
+        "type": "action",
+        "description": "Fill in a custom question about admissions or fees"
+      },
+      {
+        "type": "action",
+        "description": "Submit the question"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a chatbot reply is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC007",
+    "title": "Use the sticky navigation to reach the About section",
+    "description": "A visitor can use the persistent navigation to jump to the About section from the homepage.",
+    "category": "Single-Page Section Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the About section link in the navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the About section is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC008",
+    "title": "Chatbot answers a suggested question about courses",
+    "description": "A chatbot user can open the assistant, use a suggested question about courses, and receive a reply in the conversation.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the floating chatbot"
+      },
+      {
+        "type": "action",
+        "description": "Click a suggested question about courses"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a chatbot reply is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC009",
+    "title": "Open chatbot and view suggested questions",
+    "description": "A visitor can open the floating chatbot from the homepage and see the welcome message with suggested questions.",
+    "category": "AI College Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button to open the chat drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chat welcome content is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify suggested questions are visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC010",
+    "title": "Use the sticky navigation to reach the Courses section",
+    "description": "A visitor can use the persistent navigation to jump directly to the Courses section from the homepage.",
+    "category": "Single-Page Section Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Courses section link in the navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the courses section is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC011",
+    "title": "Chatbot accepts and answers a custom admissions question",
+    "description": "A chatbot user can type a custom question about admissions or fees and see the assistant return a response.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the floating chatbot"
+      },
+      {
+        "type": "action",
+        "description": "Fill in a custom question about admissions or fees"
+      },
+      {
+        "type": "action",
+        "description": "Send the message"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a chatbot reply is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC012",
+    "title": "Placements section shows recruiters and achievement stats",
+    "description": "A prospective student or parent can review the placement credibility content including recruiter logos and placement statistics.",
+    "category": "Placements and Footer Information",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the Placements section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify recruiter logos are visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify placement statistics are visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC013",
+    "title": "Ask a suggested course question in chat",
+    "description": "A visitor can choose a suggested question in the chatbot and receive a response.",
+    "category": "AI College Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button to open the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Select a suggested question about available courses"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a chatbot response is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the conversation includes the selected question"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC014",
+    "title": "Use the sticky navigation to reach the Placements section",
+    "description": "A visitor can use the persistent navigation to jump directly to the Placements section from the homepage.",
+    "category": "Single-Page Section Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Placements section link in the navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Placements section is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC015",
+    "title": "Submit a custom admissions question in chat",
+    "description": "A visitor can type and submit a custom question in the chatbot and receive a reply.",
+    "category": "AI College Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button to open the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the chat input with a custom question about admissions"
+      },
+      {
+        "type": "action",
+        "description": "Submit the chat message using the send action"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a chatbot response is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the submitted question appears in the conversation"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC016",
+    "title": "Courses section shows degrees specializations and program metrics",
+    "description": "A prospective student can review the course catalog and see the available degrees, specializations, seat counts, and average package figures.",
+    "category": "Courses Catalog",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the Courses section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify degree programs are listed"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify specializations seat counts and average package information are visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC017",
+    "title": "Use the sticky navigation to reach the Mentors section",
+    "description": "A visitor can use the persistent navigation to jump directly to the Mentors section from the homepage.",
+    "category": "Single-Page Section Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Mentors section link in the navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Mentors section is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC018",
+    "title": "Use the sticky navigation to reach the Campus section",
+    "description": "A visitor can use the persistent navigation to jump directly to the Campus section from the homepage.",
+    "category": "Single-Page Section Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the Campus section link in the navigation"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Campus section is displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC019",
+    "title": "Read the college overview and achievement figures",
+    "description": "A visitor can scroll to the About section and review the college description along with the achievement and placement statistics.",
+    "category": "About and Achievements",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the About section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the college description and highlight content are visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the placement statistics are displayed"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC020",
+    "title": "Mentors Campus and Events content is accessible in sequence",
+    "description": "A site visitor can move through the mentors, campus, and events sections and view the faculty and campus life content presented there.",
+    "category": "Mentors, Campus Life, and Events",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the Mentors section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify mentor profiles are visible"
+      },
+      {
+        "type": "action",
+        "description": "Continue scrolling to the Campus and Events sections"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify campus life and event gallery content is visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC021",
+    "title": "Submit a custom question with the keyboard",
+    "description": "A visitor can send a custom chatbot question by pressing Enter and receive a reply.",
+    "category": "AI College Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button to open the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the chat input with a custom question about fees"
+      },
+      {
+        "type": "action",
+        "description": "Press Enter to submit the chat message"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify a chatbot response is visible"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the submitted question appears in the conversation"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC022",
+    "title": "Contact details are visible in the footer",
+    "description": "A parent or recruiter can find the college contact email, phone number, and address in the footer.",
+    "category": "Placements and Footer Information",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the contact email phone number and address are visible"
+      }
+    ],
+    "priority": "High"
+  },
+  {
+    "id": "TC023",
+    "title": "Continue browsing after choosing a section from the navigation menu",
+    "description": "A visitor on the homepage can open the navigation, jump to a section, and keep browsing the single-page content afterward.",
+    "category": "Single-Page Section Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the navigation menu"
+      },
+      {
+        "type": "action",
+        "description": "Click the link to jump to a main section"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the next section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the next main section is displayed"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC024",
+    "title": "Footer quick links jump to each major section",
+    "description": "A site visitor can use the footer quick links to move to the main informational sections without leaving the page.",
+    "category": "Placements and Footer Information",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Scroll to the footer"
+      },
+      {
+        "type": "action",
+        "description": "Click the footer quick link to the About section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the About section is visible"
+      },
+      {
+        "type": "action",
+        "description": "Click the footer quick link to the Placements section"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the Placements section is visible"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC025",
+    "title": "Dismiss the chatbot after opening it",
+    "description": "A visitor can open the chatbot and then close or minimize it without leaving the page.",
+    "category": "Floating AI Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the chatbot"
+      },
+      {
+        "type": "action",
+        "description": "Close or minimize the chatbot"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chatbot panel is hidden"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC026",
+    "title": "Chatbot drawer can be closed after opening",
+    "description": "A site visitor can open the chatbot and then close or minimize the drawer to return to browsing the page.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Open the floating chatbot"
+      },
+      {
+        "type": "action",
+        "description": "Close or minimize the chatbot drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chatbot drawer is not visible"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC027",
+    "title": "Handle an unprocessed chat message gracefully",
+    "description": "A visitor receives a visible error state when a chatbot message cannot be processed.",
+    "category": "AI College Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button to open the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Fill in the chat input with a custom question"
+      },
+      {
+        "type": "action",
+        "description": "Submit the chat message using the send action"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify an error message is visible"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC028",
+    "title": "Close the chatbot drawer",
+    "description": "A visitor can close the chatbot drawer after opening it.",
+    "category": "AI College Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button to open the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Close the chat drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chat drawer is no longer visible"
+      }
+    ],
+    "priority": "Medium"
+  },
+  {
+    "id": "TC029",
+    "title": "Minimize and reopen the chatbot drawer",
+    "description": "A visitor can minimize the chatbot drawer and bring it back without losing access to the chat experience.",
+    "category": "AI College Chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "action",
+        "description": "Click the floating chat button to open the chat drawer"
+      },
+      {
+        "type": "action",
+        "description": "Minimize the chat drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the minimized chat state is visible"
+      },
+      {
+        "type": "action",
+        "description": "Restore the chat drawer"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the chat drawer is visible again"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC030",
+    "title": "Redirect unknown routes to the homepage",
+    "description": "A visitor who opens an unknown route is returned to the home page experience.",
+    "category": "Single-Page Section Navigation",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to an unknown route"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the homepage branding and welcome content are visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC031",
+    "title": "Unknown routes return to the homepage",
+    "description": "A site visitor who enters an unknown path is redirected back to the homepage content instead of getting stuck on a dead page.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to an unknown route"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the homepage content is visible"
+      }
+    ],
+    "priority": "Low"
+  },
+  {
+    "id": "TC032",
+    "title": "Leftover debug heading is visible on the public site",
+    "description": "A site visitor can see the leftover debug heading that appears on the public page.",
+    "category": "Home page and chatbot",
+    "steps": [
+      {
+        "type": "action",
+        "description": "Navigate to /"
+      },
+      {
+        "type": "assertion",
+        "description": "Verify the debug heading is visible"
+      }
+    ],
+    "priority": "Low"
+  }
+]

@@ -14,6 +14,8 @@ app.use(
     allowedHeaders: ["Content-Type"],
   })
 );
+
+ 
 app.use(express.json({ limit: "10mb" }));
 
 // Routes
